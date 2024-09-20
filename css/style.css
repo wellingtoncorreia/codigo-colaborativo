@@ -1,0 +1,67 @@
+body{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+form{
+    background-color: rgb(177, 143, 209);
+    width: 400px;
+    height: 700px;
+    border-radius:15px ;
+    padding: 30px;
+    
+}
+.texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+
+}
+.texto p{
+    margin-top: -20px;
+}
+.groupinput{
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 15px;
+
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.groupinput label{
+    font-size: 1.5rem;
+}
+.groupbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+input[type="submit"]{
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid #000000;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: chartreuse;
+    color:black;
+
+}
+.lgpd{
+    text-align: center;
+}
+
+
+
